@@ -1,0 +1,26 @@
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: $color-white;
+  background-color: $main-color;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background: $main-color-hover;
+  }
+
+  img {
+    padding-left: 5px;
+  }
+}

@@ -1,0 +1,61 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: $color-white;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 17px;
+
+  ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 80px;
+  }
+
+  a {
+    color: $color-black;
+    text-decoration: none;
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  .header-right,
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-right {
+    gap: 40px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 9px;
+    a {
+      display: flex;
+    }
+  }
+
+  li .colorful-link {
+    padding: 10px 25px;
+  }
+
+  .colorful-link {
+    background-color: $main-color;
+    border-radius: 52px;
+    color: $color-white;
+    padding: 10px;
+    &:hover {
+      background: $main-color-hover;
+      color: $color-white;
+    }
+  }
+}

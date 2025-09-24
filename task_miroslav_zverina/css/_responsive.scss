@@ -1,0 +1,236 @@
+@media (max-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+  .container-header {
+    .header-right {
+      gap: 20px;
+    }
+
+    ul {
+      gap: 30px;
+      font-size: 17px;
+    }
+  }
+  .header-left {
+    img {
+      width: 70%;
+    }
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  .section-1 .grid .item h3 {
+    font-size: 20px;
+  }
+  .section-1 .grid .item span {
+    font-size: 16px;
+  }
+  footer .footer-bottom {
+    padding: 20px 0;
+  }
+  .container-footer-bottom .img-wrapper img {
+    width: 38%;
+  }
+  footer .container-footer-bottom h2 {
+    font-size: 20px;
+  }
+  footer .container-footer-bottom span {
+    font-size: 14px;
+  }
+  footer .container-footer-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .container-footer-top h2 {
+    font-size: 20px;
+  }
+  footer .container-footer-top span {
+    font-size: 16px;
+  }
+  footer .container-footer-top .right img {
+    padding: 7px;
+  }
+  footer .container-footer-top .right a {
+    font-size: 18px;
+  }
+  footer .container-footer-top .right span {
+    font-size: 14px;
+  }
+  footer .footer-middle .right {
+    max-width: 500px;
+  }
+  footer .footer-middle .left h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  footer .footer-middle .left li {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  footer .footer-middle .left {
+    gap: 30px;
+  }
+  footer .footer-middle .texts-wrapper {
+    gap: 5px;
+    font-size: 16px;
+  }
+  footer .footer-middle .right h3 {
+    font-size: 18px;
+  }
+  footer .footer-middle .middle-texts {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .container-header ul {
+    gap: 15px;
+  }
+  .container-header li .colorful-link {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .container-header .colorful-link {
+    padding: 5px;
+  }
+  .container-header .header-right {
+    gap: 10px;
+  }
+
+  .container-header li .colorful-link {
+    display: none;
+  }
+  .section-1 .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    .item1 {
+      grid-row: unset;
+    }
+    .item2 {
+      grid-row: unset;
+    }
+    .item3 {
+      grid-row: unset;
+    }
+    .item4 {
+      grid-row: unset;
+    }
+    .item5 {
+      grid-row: unset;
+    }
+    .item6 {
+      grid-row: unset;
+    }
+    .item7 {
+      grid-row: unset;
+    }
+    .item8 {
+      grid-row: unset;
+    }
+    .item9 {
+      grid-row: unset;
+    }
+    .item10 {
+      grid-row: unset;
+    }
+    .item11 {
+      grid-row: unset;
+    }
+    .item12 {
+      grid-row: unset;
+    }
+  }
+  footer .footer-middle .right {
+    display: none;
+  }
+  footer .container-footer-top .right a {
+    font-size: 15px;
+  }
+  footer .container-footer-top {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-header .header-right {
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    right: -250px;
+    padding: 50px;
+    height: 100vh;
+    width: 250px;
+    background-color: $color-white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ul {
+      flex-direction: column;
+    }
+  }
+  .container-header li .colorful-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .container-header .header-right.active {
+    right: 0;
+  }
+  .hamburger,
+  .cross {
+    display: block;
+  }
+  .section-1 .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .section-1 .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-1 .grid .item {
+    max-height: 300px;
+  }
+  footer .footer-middle .left {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  footer .footer-middle {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  footer .container-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container-footer-bottom .img-wrapper a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  footer .container-footer-top .right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  footer .container-footer-top {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  footer .container-footer-top {
+    justify-content: flex-start;
+  }
+  .section-1 h1 {
+    font-size: 28px;
+  }
+}
